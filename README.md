@@ -12,7 +12,7 @@ Este projeto tem como objetivo criar um site em formato de aplicativo para promo
 ## Tecnologias Utilizadas
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Google Maps Integration**: API do Google Maps
-- **Plataformas Adicionais**: (caso utilize frameworks ou CMS, adicione aqui)
+- **Plataformas Adicionais**: (Em processo)
 
 ## Como Contribuir
 1. Faça um fork do projeto.
