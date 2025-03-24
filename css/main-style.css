@@ -2,8 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* Importação da fonte Roboto do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 /* Importação da fonte Roboto do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
@@ -68,4 +67,23 @@ footer {
     color: white;
     font-size: 14px;
     border-radius: 8px;
+}
+
+/* Centralizar a classe map-container */
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* --------------------------------------------------------- */
+
+.titulo1 {
+    text-align: left;
+    font-size: 14;
+    font-weight: 700;
 }
