@@ -1,22 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CZS Recicla</title>
+    <title>Reciclagem e Conscientização Ambiental</title>
+    <link rel="stylesheet" href="main-style.css">
 </head>
 <body>
-    <h1>Mapa de Pontos de Coleta</h1>
-    <!-- Código incorporado do Google Maps -->
-    <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15818.604248835056!2d-72.67424525!3d-7.612895000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9199cd432f1835c9%3A0xd5198e9dbc980777!2sCooperativa%20Coopsul!5e0!3m2!1spt-BR!2sbr!4v1742828914467!5m2!1spt-BR!2sbr" 
-        width="600" 
-        height="450" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-    
+    <header>
+        <h1 class="roboto">Reciclagem e Conscientização Ambiental</h1>
+    </header>
+    <section>
+        <h2 class="roboto">Sobre o Projeto</h2>
+        <p class="roboto">Nosso objetivo é fornecer informações sobre boas práticas de reciclagem e conscientização ambiental, além de mapear locais de coleta na cidade.</p>
+    </section>
+    <section>
+        <h2 class="roboto">Locais de Coleta</h2>
+        <p class="roboto">Confira abaixo os locais onde você pode levar seus resíduos para reciclagem:</p>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15818.604248835056!2d-72.67424525!3d-7.612895000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9199cd432f1835c9%3A0xd5198e9dbc980777!2sCooperativa%20Coopsul!5e0!3m2!1spt-BR!2sbr!4v1742828914467!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer>
+        <p class="roboto">© <span id="year"></span> Reciclagem e Conscientização Ambiental. Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
